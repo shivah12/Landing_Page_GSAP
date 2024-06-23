@@ -52,7 +52,7 @@ const Menu = () => {
             <div className="menu-bar">
                 <div className="menu-logo">
                     <Link href="/" legacyBehavior>
-                        <a>New</a>
+                        <a>INVEST</a>
                     </Link>
                 </div>
                 <div className="menu-open" onClick={toggleMenu}>
@@ -61,9 +61,9 @@ const Menu = () => {
             </div>
             <div className="menu-overlay">
                 <div className="menu-overlay-bar">
-                    <div className="menu-logo">
+                    <div className="menu-bar">
                         <Link href="/" legacyBehavior>
-                            <a>New</a>
+                            <a>INVEST</a>
                         </Link>
                     </div>
                     <div className="menu-close" onClick={toggleMenu}>
