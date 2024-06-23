@@ -100,9 +100,6 @@ const Menu = () => {
                         </div>
                     </div>
                 </div>
-                <div className="menu-preview">
-                    <p>View Showreel</p>
-                </div>
             </div>
         </div>
     );
