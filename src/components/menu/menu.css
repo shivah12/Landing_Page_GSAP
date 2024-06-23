@@ -11,15 +11,13 @@
 }
 
 .menu-bar a,
+.menu-close p,
 .menu-open p{
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     cursor: pointer;
 }
 
-.menu-close p{
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-}
+
 
 .menu-overlay{
     position: fixed;
@@ -34,11 +32,16 @@
     clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%);
 }
 
+.menu-close{
+    position: relative;
+}
 .menu-close-icon{
     flex: 2;
     display: flex;
     align-items: flex-end;
     cursor: pointer;
+    margin-top: 35%;
+    
 }
 
 .menu-copy{
@@ -51,15 +54,18 @@
 
 .menu-preview{
     flex: 4;
+    margin-top: 37%;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+    color: #000;
 }
 
 .menu-close-icon p{
     font-size: 100px;
     -webkit-text-stroke: 3px #c5fb45 ;
     line-height: 70%;
+    color: #000;
 }
 
 .menu-link-item{
@@ -84,13 +90,20 @@
 
 .menu-info{
     display: flex;
+    color: #000;
 }
 
 .menu-info-col{
     flex: 1;
     display: flex;
+    margin-top: 30%;
     flex-direction: column;
     justify-content: flex-end;
+}
+
+.menu-info-col a,
+.menu-info-col p{
+    color: #000;
 }
 
 @media (max-width: 900px){
