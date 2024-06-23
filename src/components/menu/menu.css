@@ -88,6 +88,7 @@
     
 }
 
+
 .menu-info{
     display: flex;
     color: #000;
@@ -106,7 +107,7 @@
     color: #000;
 }
 
-@media (max-width: 900px){
+@media (max-width: 768px){
     .menu-close-icon{
         display: none;
     }
@@ -115,5 +116,11 @@
     }
     .menu-link-item-holder a{
         font-size: 60px;
+    }
+    .menu-preview p{
+        font-size: 15px;
+        margin-top: 800%;
+        margin-right: 200%;
+        color: #000;
     }
 }
