@@ -65,10 +65,11 @@ const Menu = () => {
                         <Link href="/" legacyBehavior>
                             <a>INVEST</a>
                         </Link>
-                    </div>
-                    <div className="menu-close" onClick={toggleMenu}>
+                        <div className="menu-close" onClick={toggleMenu}>
                         <p>Close</p>
                     </div>
+                    </div>
+                    
                 </div>
                 <div className="menu-close-icon">
                     <p>&#x2715;</p>
